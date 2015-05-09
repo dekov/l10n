@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Domain Mapping\n"
 "POT-Creation-Date: 2015-02-25 03:05+0330\n"
-"PO-Revision-Date: 2015-05-08 13:39+0100\n"
+"PO-Revision-Date: 2015-05-09 19:14+0100\n"
 "Last-Translator: Thor Dekov Buur <thor@dekov-buur.dk>\n"
 "Language-Team: Sam Najian <sam@incsub.com>\n"
 "MIME-Version: 1.0\n"
@@ -91,6 +91,8 @@ msgid ""
 "You have logged in successfully. You will be redirected to desired page "
 "during next 5 seconds."
 msgstr ""
+"Du er nu logget ind. Du bliver viderestillet til den ønskede side i løbet af "
+"5 sekunder."
 
 #: classes/Domainmap/Module/Cdsso.php:378
 msgid "Incorrect or out of date login key"
@@ -113,7 +115,7 @@ msgstr ""
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:76
 #: classes/Domainmap/Reseller.php:334
 msgid "Purchase domain"
-msgstr ""
+msgstr "Køb domæne"
 
 #: classes/Domainmap/Module/Pages.php:374
 msgid "Mapping options"
@@ -134,11 +136,11 @@ msgstr ""
 #: classes/Domainmap/Module/Pages.php:412
 #: classes/Domainmap/Table/Reseller/Log.php:116
 msgid "Delete"
-msgstr ""
+msgstr "Slet"
 
 #: classes/Domainmap/Module/Setup.php:83
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: classes/Domainmap/Module/Setup.php:86
 msgid "You are about to unmap selected domain. Do you really want to proceed?"
@@ -156,17 +158,19 @@ msgstr ""
 
 #: classes/Domainmap/Module/Setup.php:89
 msgid "Please enter username and password"
-msgstr ""
+msgstr "Angiv venligst brugernavn og adgangskode"
 
 #: classes/Domainmap/Module/Setup.php:90
 msgid ""
 "You are about to deselect your primary domain. Do you really want to proceed?"
 msgstr ""
+"Du er ved at fravælge dit primære domæne. Er du sikker på, du vil fortsætte?"
 
 #: classes/Domainmap/Module/Setup.php:91
 msgid ""
 "You are about to change your primary domain. Do you really want to proceed?"
 msgstr ""
+"Du er ved at ændre dit primære domæne. Er du sikker på, du vil fortsætte?"
 
 #: classes/Domainmap/Module/Setup.php:92
 msgid ""
@@ -176,31 +180,31 @@ msgstr ""
 
 #: classes/Domainmap/Module/Setup.php:93
 msgid "Invalid data, please try again"
-msgstr ""
+msgstr "Ugyldig data, prøv venligst igen"
 
 #: classes/Domainmap/Module/Setup.php:96
 msgid "Credit card number is invalid."
-msgstr ""
+msgstr "Kreditkortnummer er ugyldigt."
 
 #: classes/Domainmap/Module/Setup.php:97
 msgid "Credit card type is invalid."
-msgstr ""
+msgstr "Kreditkorttypen er ugyldig."
 
 #: classes/Domainmap/Module/Setup.php:98
 msgid "Credit card expiry date is invalid."
-msgstr ""
+msgstr "Udløbsdatoen er ugyldig."
 
 #: classes/Domainmap/Module/Setup.php:99
 msgid "Credit card CVV2 code is invalid."
-msgstr ""
+msgstr "Sikkerhedskoden er ugyldig."
 
 #: classes/Domainmap/Module/Setup.php:103
 msgid "Domain name has been purchased successfully."
-msgstr ""
+msgstr "Domænet er blevet købt."
 
 #: classes/Domainmap/Module/Setup.php:104
 msgid "Domain name purchase has failed."
-msgstr ""
+msgstr "Køb af domæne er ikke gennemført."
 
 #: classes/Domainmap/Module/Setup.php:108
 msgid "Domain name has been ordered and  successfully mapped"
@@ -245,13 +249,15 @@ msgstr ""
 #: classes/Domainmap/Render/Network/Resellers.php:44
 #: classes/Domainmap/Render/Site.php:45
 msgid "Options updated."
-msgstr ""
+msgstr "Indstillingerne blev opdaterede."
 
 #: classes/Domainmap/Render/Network/Options.php:76
 #, php-format
 msgid ""
 "Please copy the sunrise.php to %s and uncomment the %s setting in the %s file"
 msgstr ""
+"Kopier venligst sunrise.php til %s og udkommenter indstillingen  %s i filen "
+"%s"
 
 #: classes/Domainmap/Render/Network/Options.php:86
 #, php-format
@@ -259,6 +265,8 @@ msgid ""
 "You use old version of %s file. Please, replace that file with new version "
 "which is located by following path: %s."
 msgstr ""
+"Du benytter en gammel version af filen %s. Udskift den venligst med den nye "
+"version der findes på %s."
 
 #: classes/Domainmap/Render/Network/Options.php:98
 #, php-format
@@ -277,7 +285,7 @@ msgstr ""
 #: classes/Domainmap/Render/Network/Options.php:154
 #: classes/Domainmap/Render/Network/Resellers.php:118
 msgid "Save Changes"
-msgstr ""
+msgstr "Gem ændringer"
 
 #: classes/Domainmap/Render/Network/Options.php:176
 msgid "Domain mapping configuration"
@@ -288,12 +296,16 @@ msgid ""
 "Enter the IP address users need to point their DNS A records at. If you "
 "don't know what it is, ping this site to get the IP address."
 msgstr ""
+"Angiv hvilken IP-adresse brugerne skal pege deres DNS A record på. Hvis du "
+"ikke, ved hvilken, så ping dette site, for at få IP-adressen."
 
 #: classes/Domainmap/Render/Network/Options.php:179
 msgid ""
 "If you have more than one IP address, separate them with a comma. This "
 "message is displayed on the Domain mapping page for your users."
 msgstr ""
+"Hvis du har mere end én IP-adresse, så adskil dem med komma. Denne besked "
+"vises på brugernes Domain Mapping side."
 
 #: classes/Domainmap/Render/Network/Options.php:185
 msgid ""
@@ -304,7 +316,7 @@ msgstr ""
 
 #: classes/Domainmap/Render/Network/Options.php:194
 msgid "Server IP Address: "
-msgstr ""
+msgstr "Server IP-adresse:"
 
 #: classes/Domainmap/Render/Network/Options.php:200
 msgid ""
@@ -312,6 +324,9 @@ msgid ""
 "then use the text area bellow to enter your instructions or leave it blank "
 "to show the default text."
 msgstr ""
+"Hvis du vil vise din egen instruktion til brugerne på Domain Mapping siden, "
+"så benyt tekstfeltet herunder ellers lad det være tomt, for at vise standard "
+"teksten (på engelsk)."
 
 #: classes/Domainmap/Render/Network/Options.php:213
 msgid "Administration mapping"
@@ -341,7 +356,7 @@ msgstr ""
 #: classes/Domainmap/Table/MappedDomains/Listing.php:214
 #: classes/Domainmap/Table/MappedDomains/Listing.php:225
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: classes/Domainmap/Render/Network/Options.php:268
 #: classes/Domainmap/Render/Network/Options.php:315
@@ -350,7 +365,7 @@ msgstr ""
 #: classes/Domainmap/Table/MappedDomains/Listing.php:214
 #: classes/Domainmap/Table/MappedDomains/Listing.php:225
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #: classes/Domainmap/Render/Network/Options.php:271
 msgid "Cross-domain autologin"
@@ -372,7 +387,7 @@ msgstr ""
 
 #: classes/Domainmap/Render/Network/Options.php:318
 msgid "Verify domain's DNS settings"
-msgstr ""
+msgstr "Verificer domænets DNS indstillinger"
 
 #: classes/Domainmap/Render/Network/Options.php:320
 msgid ""
@@ -390,24 +405,24 @@ msgstr ""
 
 #: classes/Domainmap/Render/Network/Options.php:369
 msgid "Force http/https (Only for original domain)"
-msgstr ""
+msgstr "Gennemtving http/https (gælder kun det originale domæne)"
 
 #: classes/Domainmap/Render/Network/Options.php:371
 msgid ""
 "Would you like to force <strong>https</strong> in login and admin pages:"
-msgstr ""
+msgstr "Vil du gennemtvinge <strong>https</strong> på login og admin sider?"
 
 #: classes/Domainmap/Render/Network/Options.php:385
 msgid "Would you like to force <strong>http/https</strong> in front-end pages:"
-msgstr ""
+msgstr "Vil du gennemtvinge <strong>http/https</strong> in front-end sider?"
 
 #: classes/Domainmap/Render/Network/Options.php:391
 msgid "Force http"
-msgstr ""
+msgstr "Gennemtving http"
 
 #: classes/Domainmap/Render/Network/Options.php:392
 msgid "Force https"
-msgstr ""
+msgstr "Gennemtving https"
 
 #: classes/Domainmap/Render/Network/Options.php:417
 msgid "Select Pro Sites Levels:"
@@ -429,7 +444,7 @@ msgstr ""
 
 #: classes/Domainmap/Render/Network/Options.php:447
 msgid "Please separate domain names with comma"
-msgstr ""
+msgstr "Adskil venligst domæner med komma"
 
 #: classes/Domainmap/Render/Network/Options.php:454
 msgid ""
@@ -439,11 +454,11 @@ msgstr ""
 
 #: classes/Domainmap/Render/Network/Resellers.php:48
 msgid "Account was registered successfully."
-msgstr ""
+msgstr "Konto blev registreret korrekt."
 
 #: classes/Domainmap/Render/Network/Resellers.php:63
 msgid "All requests"
-msgstr ""
+msgstr "Alle forespørgsler"
 
 #: classes/Domainmap/Render/Network/Resellers.php:64
 msgid "Failed requests"
@@ -487,58 +502,58 @@ msgstr ""
 #: classes/Domainmap/Render/Reseller/WHMCS/Purchase.php:66
 #: classes/Domainmap/Render/Reseller/WHMCS/Register.php:61
 msgid "Cancel"
-msgstr ""
+msgstr "Annuller"
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:96
 msgid "Credit Card"
-msgstr ""
+msgstr "Kreditkort"
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:99
 msgid "Supported card types are:"
-msgstr ""
+msgstr "Brugbare korttyper:"
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:103
 msgid "Card Number:"
-msgstr ""
+msgstr "Kreditkortnummer:"
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:105
 msgid "Enter credit card number."
-msgstr ""
+msgstr "Angiv kreditkortnummer."
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:109
 msgid "Card Expiration:"
-msgstr ""
+msgstr "Udløbsdato"
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:111
 msgid "Enter credit card expiration date."
-msgstr ""
+msgstr "Angiv kortets udløbsdato."
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:115
 msgid "CVV2:"
-msgstr ""
+msgstr "Sikkerhedskode (CVV2):"
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:117
 msgid "Enter credit card security code."
-msgstr ""
+msgstr "Angiv kortets sikkerhedskode (CVV2)."
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:121
 msgid "Cardholder's Name:"
-msgstr ""
+msgstr "Kortholders navn:"
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:123
 msgid "Enter cardholder's name."
-msgstr ""
+msgstr "Angiv kortholders navn:"
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:137
 msgid "Billing Information"
-msgstr ""
+msgstr "Faktureringsinformation"
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:140
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:218
 #: classes/Domainmap/Render/Reseller/Enom/Register.php:183
 #: classes/Domainmap/Render/Reseller/WHMCS/Register.php:193
 msgid "Address:"
-msgstr ""
+msgstr "Adresse:"
 
 #: classes/Domainmap/Render/Reseller/Enom/Purchase.php:142
 msgid "Enter credit card billing address. The maximum length is 60 characters."
@@ -1479,7 +1494,7 @@ msgstr ""
 
 #: classes/Domainmap/Table/Reseller/Log.php:58
 msgid "success"
-msgstr ""
+msgstr "succes"
 
 #: classes/Domainmap/Table/Reseller/Log.php:73
 #: classes/Domainmap/Table/Reseller/Log.php:141
@@ -1492,7 +1507,7 @@ msgstr ""
 
 #: classes/Domainmap/Table/Reseller/Log.php:155
 msgid "User"
-msgstr ""
+msgstr "Bruger"
 
 #: classes/Domainmap/Table/Reseller/Log.php:156
 msgid "Action"
@@ -1500,7 +1515,7 @@ msgstr ""
 
 #: classes/Domainmap/Table/Reseller/Log.php:157
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: classes/Domainmap/Table/Reseller/Log.php:158
 msgid "Requested At"
@@ -1508,19 +1523,19 @@ msgstr ""
 
 #: classes/Domainmap/Table/Reseller/Log.php:159
 msgid "Errors"
-msgstr ""
+msgstr "Fejl"
 
 #: classes/Domainmap/Table/Reseller/Log.php:192
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #: classes/Domainmap/Table/Reseller/Log.php:199
 msgid "Success"
-msgstr ""
+msgstr "Succes"
 
 #: classes/Domainmap/Table/Reseller/Log.php:206
 msgid "Failed"
-msgstr ""
+msgstr "Fejl"
 
 #: classes/Domainmap/Table/Reseller/Log.php:299
 msgid "Show all actions"
